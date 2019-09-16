@@ -35,5 +35,5 @@ Notes from the learned materials:
 * [Unix pipeline](https://en.wikipedia.org/wiki/Pipeline_(Unix));
 * `man` command shows the manual pages;
 * I/O redirection: use `>` to send output to file or `>>` to append to file;
-* `ps` command displays process information, `ps aux` - shows all system processes;
+* `ps` command displays process information, `ps aux` shows all system processes;
 * `grep` command searches for text in a file and returns the line(s) where it finds a match
