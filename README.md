@@ -15,3 +15,25 @@ I have gained new and expand existing knowledge of Git version control system. T
 `git revert` reverses given commit (you have to provide SHA).
 
 Other materials help to further improve skills and can be used in the future.
+
+## 2. Unix Shell
+
+[Linux Survival](https://linuxsurvival.com/linux-tutorial-introduction/) completion:
+
+| Quiz                               | End of module                       |
+| ---------------------------------- | ----------------------------------- |
+|[Quiz 1](task_unix_shell/quiz_1.png)|[Module 1](task_unix_shell/end_1.png)|
+|[Quiz 2](task_unix_shell/quiz_2.png)|[Module 2](task_unix_shell/end_2.png)|
+|[Quiz 3](task_unix_shell/quiz_3.png)|[Module 3](task_unix_shell/end_3.png)|
+|[Quiz 4](task_unix_shell/quiz_4.png)|[Module 4](task_unix_shell/end_4.png)|
+
+Notes from the learned materials:
+* The command `cd` followed by nothing, will change the working directory to your home directory;
+* Useful additional options for some commands, for example: `ls -a` shows hidden files, `ls -l` shows files in long format, `ls -hlt` shows files in human readable, long form and sorted by time;
+* In unix there are three spheres of permission — user, group, and other — as well as three particular types for each sphere — read, write, and execute. Use `chmod` command to change the permission of a file or directory;
+* `cat` command prints the contents of the files;
+* [Unix pipeline](https://en.wikipedia.org/wiki/Pipeline_(Unix));
+* `man` command shows the manual pages;
+* I/O redirection: use `>` to send output to file or `>>` to append to file;
+* `ps` command displays process information, `ps aux` - shows all system processes;
+* `grep` command searches for text in a file and returns the line(s) where it finds a match
