@@ -36,4 +36,21 @@ Notes from the learned materials:
 * `man` command shows the manual pages;
 * I/O redirection: use `>` to send output to file or `>>` to append to file;
 * `ps` command displays process information, `ps aux` shows all system processes;
-* `grep` command searches for text in a file and returns the line(s) where it finds a match
+* `grep` command searches for text in a file and returns the line(s) where it finds a match.
+
+## 3. Git Collaboration
+<img src="task_git_collaboration/version_control_with_git.png" width="45%">
+<img src="task_git_collaboration/github_and_collaboration.png" width="45%">
+
+<br /> Notes from the learned materials:
+* `git remote` command to manage and interact with the remote repository;
+* `git push` command to send changes from local repository to remote;
+* `git pull` retrieve updates from remote repository;
+* `git fetch` retrieve commits from the remote repository branch but it *does not* automatically merge the local branch with the remote tracking branch. Use `git merge origin/master` to merge the local branch with the tracking branch;
+* Use `git checkout` to move around and review commit history;
+* Undo changes with `git revert` (preferred method for undoing public changes) and `git reset` (preferred method for undoing local private changes);
+* `git shortlog` shows how many commits each contributor has added to the repository (`-s` to show just the number of commits and `-n` to sort them numerically);
+* Use `--grep` flag with `git log` command to filter commits;
+* Use `git rebase` to combine commits and modify history of a branch (use interactive mode `-i` and create a backup branch before rebasing).
+
+>Follow best practices: *write clear and descriptive commit messages*; *create small, focused commits*; *update the README file*.
