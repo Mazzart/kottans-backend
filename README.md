@@ -39,10 +39,9 @@ Notes from the learned materials:
 * `grep` command searches for text in a file and returns the line(s) where it finds a match.
 
 ## 3. Git Collaboration
-<img src="task_git_collaboration/version_control_with_git.png" width="45%">
-<img src="task_git_collaboration/github_and_collaboration.png" width="45%">
+<img src="task_git_collaboration/version_control_with_git.png" width="45%"> <img src="task_git_collaboration/github_and_collaboration.png" width="45%">
 
-<br /> Notes from the learned materials:
+Notes from the learned materials:
 * `git remote` command to manage and interact with the remote repository;
 * `git push` command to send changes from local repository to remote;
 * `git pull` retrieve updates from remote repository;
