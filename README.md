@@ -1,4 +1,8 @@
 # Stage 0
+1. [Git and GitHub](#git-and-github)
+2. [Unix Shell](#unix-shell)
+3. [Git Collaboration](#git-collaboration)
+
 ## 1. Git and Github
 I have gained new and expand existing knowledge of Git version control system. The Udacity course [How to use Git and Github](https://www.udacity.com/course/how-to-use-git-and-github--ud775) was a good starting point and gave a good overview of basic Git usage (create a repo, commit changes, review the history of commits, etc). I learned new commands, how to use them and what information they provide for example:
 
