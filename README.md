@@ -122,6 +122,6 @@ __DATA                 00007fffa2a4c000-00007fffa2a4e000 [    8K     8K     4K  
 __DATA                 00007fffa2a4e000-00007fffa2a4f000 [    4K     4K     0K     0K] rw-/rwx SM=COW          /usr/lib/system/libunwind.dylib
 __DATA                 00007fffa2a4f000-00007fffa2a56000 [   28K    28K    12K     0K] rw-/rwx SM=COW          /usr/lib/system/libxpc.dylib
 ```
-`Heap - 00007fc950000000`, `Stack - 00007ffee15e5000-00007ffee1de5000`, `MMS - 000000010e01a000`.
+`Heap - 00007fc94fc00000-00007fc950000000`, `Stack - 00007ffee15e5000-00007ffee1de5000`, `MMS - 000000010dfe1000-000000010e01a000`.
 
 Lots of new information about this task. I had to search and read more materials to answer the questions. I will use the command `ps -a` and the knowledge gained.
