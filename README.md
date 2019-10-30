@@ -4,6 +4,7 @@
 3. [Git Collaboration](#3-git-collaboration)
 4. [Python Basics Part I](#4-python-basics-part-i)
 5. [Memory management](#5-memory-management)
+6. [TCP. UDP. Network](#6-tcp-udp-network)
 
 ## 1. Git and Github
 I have gained new and expand existing knowledge of Git version control system. The Udacity course [Version Control with Git](https://www.udacity.com/course/how-to-use-git-and-github--ud775) was a good starting point and gave a good overview of basic Git usage (create a repo, commit changes, review the history of commits, etc). I learned new commands, how to use them and what information they provide for example:
@@ -45,7 +46,7 @@ Notes from the learned materials:
 * `grep` command searches for text in a file and returns the line(s) where it finds a match.
 
 ## 3. Git Collaboration
-<img src="task_git_collaboration/version_control_with_git.png" width="45%"> <img src="task_git_collaboration/github_and_collaboration.png" width="45%">
+<img src="task_git_collaboration/version_control_with_git.png" width="35%"> <img src="task_git_collaboration/github_and_collaboration.png" width="55%">
 
 Notes from the learned materials:
 * `git remote` command to manage and interact with the remote repository;
@@ -125,3 +126,8 @@ __DATA                 00007fffa2a4f000-00007fffa2a56000 [   28K    28K    12K  
 `Heap - 00007fc94fc00000-00007fc950000000`, `Stack - 00007ffee15e5000-00007ffee1de5000`, `MMS - 000000010dfe1000-000000010e01a000`.
 
 Lots of new information about this task. I had to search and read more materials to answer the questions. I will use the command `ps -a` and the knowledge gained.
+
+## TCP. UDP. Network
+<img src="task_networks/internet_101.png" width="22%"> <img src="task_networks/networking_for_developers.png" width="70%">
+
+Has improved understanding of how the Internet and the network work, has learned new terminology.
