@@ -1,0 +1,6 @@
+{
+  "birthdays": [{"name": "Albert Einstein", "date": "March 14, 1879"},
+              {"name": "Benjamin Franklin", "date": "January 17, 1706"},
+              {"name": "Ada Lovelace", "date": "December 10, 1815"},
+              {"name": "Elon Musk", "date": "June 28, 1971"}]
+}
