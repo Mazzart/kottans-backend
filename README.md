@@ -5,6 +5,7 @@
 4. [Python Basics Part I](#4-python-basics-part-i)
 5. [Memory management](#5-memory-management)
 6. [TCP. UDP. Network](#6-tcp-udp-network)
+7. [HTTP and HTTPS](#7-http-and-https)
 
 ## 1. Git and Github
 I have gained new and expand existing knowledge of Git version control system. The Udacity course [Version Control with Git](https://www.udacity.com/course/how-to-use-git-and-github--ud775) was a good starting point and gave a good overview of basic Git usage (create a repo, commit changes, review the history of commits, etc). I learned new commands, how to use them and what information they provide for example:
@@ -62,6 +63,8 @@ Notes from the learned materials:
 >Follow best practices: *write clear and descriptive commit messages*; *create small, focused commits*; *update the README file*.
 
 ## 4. Python Basics Part I
+
+[HackerRank profile](https://www.hackerrank.com/Mazart)
 
 ## 5. Memory Management
 - What's going to happen if program reaches maximum limit of stack?
@@ -127,7 +130,9 @@ __DATA                 00007fffa2a4f000-00007fffa2a56000 [   28K    28K    12K  
 
 Lots of new information about this task. I had to search and read more materials to answer the questions. I will use the command `ps -a` and the knowledge gained.
 
-## TCP. UDP. Network
+## 6. TCP. UDP. Network
 <img src="task_networks/internet_101.png" width="22%"> <img src="task_networks/networking_for_developers.png" width="70%">
 
 Has improved understanding of how the Internet and the network work, has learned new terminology.
+
+## 7. HTTP and HTTPS
