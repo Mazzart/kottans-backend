@@ -136,3 +136,51 @@ Lots of new information about this task. I had to search and read more materials
 Has improved understanding of how the Internet and the network work, has learned new terminology.
 
 ## 7. HTTP and HTTPS
+#### Requests
+User info:  
+`curl https://api.github.com/users/Mazzart`  
+User info with the headers received from server:  
+`curl -i https://api.github.com/users/Mazzart`  
+The list of gists starred by user:  
+`curl --user "Mazzart" https://api.github.com/gists/starred`  
+The repositories of "Kottans" organization:  
+`curl -i https://api.github.com/orgs/kottans/repos`  
+Create new issue in your repository:  
+`curl -i -H 'Authorization: token ********' -d '{"title": "Test issue", "body": "Nice testing issue", "labels": ["testing"]}' https://api.github.com/repos/Mazzart/kottans-backend/issues`
+#### Questions
+1. Name at least three possible negative consequences of not using https:
+>- personal data of users can be stolen;
+>- users can receive modified information along the way (man-in-the-middle attack);
+>- users cannot be sure that they are communicating with the right server.
+2. Explain the main idea behind public key cryptography in few sentences:  
+>There are two types of keys: private and public which work together. The public key can be shared and used to encrypt information. But only a person with the right private key can decrypt this information.
+3. You are creating an application for pet clinic. You need to implement the following functionality:
+- add new pet (including name, age, breed, owner`s name, medical history)
+> endpoint: /pet_clinic/pets  
+> POST body: {"name": "...", "age": ..., "breed": "...", "owner_name": "...", "medical_history": "..."}  
+> Status: 201 (Created) on success with the pet_id in the response body or 400 (Bad Request) on fail
+
+- search pet by name
+> endpoint: /pet_clinic/pets?name=value  
+> GET  
+> Status: 200 (OK) on success with the pet info in the response body or 400 (Bad Request) on fail
+
+- change name of an existing pet
+> endpoint: /pet_clinic/pets/{pet_id}  
+> PUT body: {"name": "new_name"}  
+> Status: 200 (OK) on success or 400 (Bad Request) on fail
+
+- add new info about pet's health
+> endpoint: /pet_clinic/pets/{pet_id}  
+> PUT body: {"health": "..."}  
+> Status: 200 (OK) on success or 400 (Bad Request) on fail
+
+- assign a pet to a particular doctor in the clinic
+> endpoint: /pet_clinic/pets/{pet_id}  
+> PUT body: {"doctor_id": ...}  
+> Status: 200 (OK) on success or 400 (Bad Request) on fail
+
+- register an appointment for a pet. This request should include info about pet, doctor and appointment date and time
+> endpoint: /pet_clinic/pets/{pet_id}/appointments  
+> POST body: {"pet_info": ..., "doctor_info": ..., "date": ..., "time": ...}  
+> Status: 201 (Created) on success with the appointment_id in the response body or 400 (Bad Request) on fail
