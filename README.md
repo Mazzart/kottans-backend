@@ -6,6 +6,11 @@
 5. [Memory management](#5-memory-management)
 6. [TCP. UDP. Network](#6-tcp-udp-network)
 7. [HTTP and HTTPS](#7-http-and-https)
+8. [Design Patterns: Intro]()
+9. [Data Structures]()
+10. [File System]()
+11. [Runtime, Ecosystem and I/O]()
+12. [Databases](#12-relational-databases-basics)
 
 ## 1. Git and Github
 I have gained new and expand existing knowledge of Git version control system. The Udacity course [Version Control with Git](https://www.udacity.com/course/how-to-use-git-and-github--ud775) was a good starting point and gave a good overview of basic Git usage (create a repo, commit changes, review the history of commits, etc). I learned new commands, how to use them and what information they provide for example:
@@ -184,3 +189,13 @@ Create new issue in your repository:
 > endpoint: /pet_clinic/pets/{pet_id}/appointments  
 > POST body: {"pet_info": ..., "doctor_info": ..., "date": ..., "time": ...}  
 > Status: 201 (Created) on success with the appointment_id in the response body or 400 (Bad Request) on fail
+
+## 8. Architectural Patterns & Design Patterns
+
+## 9. Data Structures
+
+## 10. File System
+
+## 11. Runtime and Ecosystem
+
+## 12. Relational Databases Basics
