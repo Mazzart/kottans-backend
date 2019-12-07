@@ -199,3 +199,4 @@ Create new issue in your repository:
 ## 11. Runtime and Ecosystem
 
 ## 12. Relational Databases Basics
+The SQL SELECT statement can be viewed in the [select.sql](sql_basics/select.sql) file.
