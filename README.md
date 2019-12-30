@@ -8,7 +8,7 @@
 7. [HTTP and HTTPS](#7-http-and-https)
 8. [Design Patterns: Intro]()
 9. [Data Structures]()
-10. [File System]()
+10. [File System](#10-file-system)
 11. [Runtime, Ecosystem and I/O]()
 12. [Databases](#12-relational-databases-basics)
 
