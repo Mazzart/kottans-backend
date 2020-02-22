@@ -1,4 +1,5 @@
 # Stage 0
+Personal progress of the online *Backend course*. The tasks below should be completed at home before the offine stage.
 1. [Git and GitHub](#1-git-and-github)
 2. [Unix Shell](#2-unix-shell)
 3. [Git Collaboration](#3-git-collaboration)
