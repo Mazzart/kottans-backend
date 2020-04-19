@@ -8,7 +8,7 @@ Personal progress of the online *Backend course*. The tasks below should be comp
 6. [TCP. UDP. Network](#6-tcp-udp-network)
 7. [HTTP and HTTPS](#7-http-and-https)
 8. [Design Patterns: Intro]()
-9. [Data Structures]()
+9. [Data Structures](#9-data-structures)
 10. [File System](#10-file-system)
 11. [Runtime, Ecosystem and I/O]()
 12. [Databases](#12-relational-databases-basics)
@@ -194,6 +194,20 @@ Create new issue in your repository:
 ## 8. Architectural Patterns & Design Patterns
 
 ## 9. Data Structures
+Completed the theoretical part and made [PR for the practical part](https://github.com/kottans/python-2019-homeworks/pull/21).
+
+#### API description
+There are two endpoints available: `/stack` and `/list`
+
+Stack (POST, DELETE):
+- `POST`, endpoint: /stack?item=1, adds the item value on top of the stack
+- `DELETE`, endpoint: /stack, deletes the value from top of the stack
+
+List (GET, POST, DELETE):
+- `GET`, endpoint: /list, shows the linked_list data
+- `POST`, endpoint: /list?item=1, adds the item value as a head of the list
+- `POST`, endpoint: /list?item=2&successor=1, adds the item value to the list before the successor
+- `DELETE`, endpoint: /list?item=1, removes the item value from the list
 
 ## 10. File System
 [secret.txt](file_system/secret.txt)  
